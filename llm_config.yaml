@@ -1,0 +1,11 @@
+llm:
+  provider: ollama          # ollama | openai | anthropic
+  model: gemma4:e2b          # any model pulled in Ollama, or gpt-4o-mini, claude-3-5-haiku etc.
+  base_url: http://host.docker.internal:11434/v1
+  api_key: ollama           # placeholder — Ollama ignores this
+
+embeddings:
+  provider: ollama          # ollama | openai
+  model: nomic-embed-text   # or text-embedding-3-small for openai
+  base_url: http://host.docker.internal:11434/v1
+  api_key: ollama

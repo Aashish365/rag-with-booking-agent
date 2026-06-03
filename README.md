@@ -1,5 +1,7 @@
 # RAG Backend
 
+**Demo:** [Watch on YouTube](https://youtu.be/TJgc1pr8nX0)
+
 Two ways to use this project: **interactive CLI** or **REST API** (Swagger / Postman / curl).
 
 ---
